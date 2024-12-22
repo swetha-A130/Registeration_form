@@ -1,0 +1,94 @@
+/* Body settings to center everything using Flexbox */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make body take full height of the viewport */
+    display: flex; /* Use Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(235, 227, 238); /* Background color for the page */
+}
+#register{ /* Center horizontally */
+    text-align: center;
+}
+/* Form container styling */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    text-align: left; /* Align the text to the left inside the form */
+    border-radius: 10px;
+    width: 500px; /* Set the width of the form container */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+/* Container for individual form fields */
+.div-container {
+    margin-bottom: 20px;
+/* Align inputs and labels to the left */
+}
+
+/* Label styling */
+label {
+ /* Makes label take full width */
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+#State{
+    display:block;
+    padding: 10px;
+    width: 100%; /* Make input field stretch to the full width of its container */
+    border: 1px solid #150404;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px; 
+}
+#City{
+    display:block;
+    padding: 10px;
+    width: 100%; /* Make input field stretch to the full width of its container */
+    border: 1px solid #150404;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px; 
+}
+
+
+/* Input styling */
+input {
+    display:block;
+    padding: 10px;
+    width: 100%; /* Make input field stretch to the full width of its container */
+    border: 1px solid #150404;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px; /* Add margin between inputs */
+}
+
+/* Submit button styling */
+[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: black;
+    border-radius:100px;
+    cursor: pointer;
+    font-size: 16px;
+    width:78%;
+    display:inline-block;
+}
+[type="reset"] {
+  
+    padding: 10px;
+    color: white;
+    border: black;
+    border-radius:100px;
+    cursor: pointer;
+    font-size: 16px;
+    width:78%;
+    background-color: #f44336; /* Different color for the reset button */
+}
+.button-container {
+    margin-bottom: 10px;
+     /* Ensure the container stretches across the full width */
+}

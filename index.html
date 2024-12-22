@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Registeration Form</title>
+</head>
+
+<body>
+    
+    <form class="form-container">
+        <h2 id="register">Register Now</h2>
+        
+        <div class="div-container">
+            <label id="Username">UserName:</label>
+            <input type="text" name="Username" placeholder="Enter your name" required >
+        </div>
+    
+        <div class="div-container">
+            <label id="Email">Email id:</label>
+            <input type="email" name="Email" placeholder="Enter your Email id" required >
+        </div>
+    
+        <div class="div-container">
+            <label id="Password">Password:</label>
+            <input type="password" name="Password" placeholder="Enter your Password" required>
+        </div>
+    
+        <div class="div-container">
+            <label id="Phonenumber">Phonenumber:</label>
+            <input type="tel" name="Phonenumber" placeholder="Enter your Phonenumber" required >
+        </div>
+    
+        <div class="div-container">
+            <label for="State">State</label>
+            <select id="State" name="State" required >
+                <option value="" disabled selected>Enter your State</option>
+                <option value="option1">Andhra Pradesh</option>
+                <option value="option2">Telangana</option>
+                <option value="option3">Banglore</option>
+                <option value="option4">Chennai</option>
+            </select>
+        </div>
+    
+        <div class="div-container">
+            <label id="city">City</label>
+            <select id="City" name="City" required >
+                <option value="" disabled selected>Enter your City</option>
+                <option value="option1">Vijayawada</option>
+                <option value="option2">Hyderabad</option>
+                <option value="option3">Sarjapur</option>
+                <option value="option4">Sholinglur</option>
+            </select>
+        </div>
+    
+        <div>
+            <button type="submit" class="button-container">Submit</button>
+        </div>
+    
+        <div>
+            <button type="reset" class="button-container">Reset</button>
+        </div>
+    
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
