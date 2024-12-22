@@ -88,7 +88,32 @@ input {
     width:78%;
     background-color: #f44336; /* Different color for the reset button */
 }
+
+/* Container for buttons to display them side by side */
 .button-container {
-    margin-bottom: 10px;
-     /* Ensure the container stretches across the full width */
+    display: flex; /* Place buttons side by side */
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    margin-top: 20px; /* Add some spacing above the buttons */
+}
+
+/* Styling for individual buttons */
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+}
+
+.button[type="submit"] {
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white;
+}
+
+.button[type="reset"] {
+    background-color: #f44336; /* Red background for reset button */
+    color: white;
 }
